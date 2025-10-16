@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Solar 3D - Simulación Interactiva NASA</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#1a1a2e">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Sistema Solar 3D">
+</head>
+<body>
+    <div id="loading-screen">
+        <div class="loader">
+            <div class="orbit">
+                <div class="planet"></div>
+            </div>
+            <p>Cargando Sistema Solar...</p>
+        </div>
+    </div>
+
+    <nav class="navbar">
+        <div class="nav-brand">
+            <i class="fas fa-rocket"></i>
+            <span>Sistema Solar 3D</span>
+        </div>
+        <div class="nav-links">
+            <a href="#simulator" class="nav-link active">Simulador</a>
+            <a href="#planets" class="nav-link">Planetas</a>
+            <a href="#physics" class="nav-link">Física</a>
+            <a href="#objects" class="nav-link">Objetos</a>
+            <a href="#about" class="nav-link">Acerca de</a>
+        </div>
+        <div class="nav-controls">
+            <button id="fullscreen-btn" class="control-btn">
+                <i class="fas fa-expand"></i>
+            </button>
+            <button id="audio-toggle" class="control-btn">
+                <i class="fas fa-volume-up"></i>
+            </button>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <section id="simulator" class="simulator-section">
+            <div class="simulator-container">
+                <div id="solar-system-canvas" class="canvas-container">
+                    <canvas id="main-canvas"></canvas>
+                </div>
+                
+                <div class="simulator-controls">
+                    <div class="control-panel">
+                        <h3>Controles de Simulación</h3>
+                        <div class="control-group">
+                            <label>Velocidad de tiempo:</label>
+                            <input type="range" id="time-speed" min="0" max="100" value="50">
+                            <span id="speed-value">1x</span>
+                        </div>
+                        <div class="control-group">
+                            <label>Vista:</label>
+                            <select id="view-mode">
+                                <option value="system">Sistema Completo</option>
+                                <option value="planet">Vista Planetaria</option>
+                                <option value="satellite">Vista Satélite</option>
+                            </select>
+                        </div>
+                        <div class="control-group">
+                            <button id="play-pause" class="btn-primary">
+                                <i class="fas fa-pause"></i> Pausar
+                            </button>
+                            <button id="reset-view" class="btn-secondary">
+                                <i class="fas fa-redo"></i> Reiniciar Vista
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="planet-selector">
+                        <h3>Seleccionar Cuerpo Celeste</h3>
+                        <div class="planet-grid">
+                            <div class="planet-card" data-planet="sun">
+                                <div class="planet-icon sun"></div>
+                                <span>Sol</span>
+                            </div>
+                            <div class="planet-card" data-planet="mercury">
+                                <div class="planet-icon mercury"></div>
+                                <span>Mercurio</span>
+                            </div>
+                            <div class="planet-card" data-planet="venus">
+                                <div class="planet-icon venus"></div>
+                                <span>Venus</span>
+                            </div>
+                            <div class="planet-card active" data-planet="earth">
+                                <div class="planet-icon earth"></div>
+                                <span>Tierra</span>
+                            </div>
+                            <div class="planet-card" data-planet="mars">
+                                <div class="planet-icon mars"></div>
+                                <span>Marte</span>
+                            </div>
+                            <div class="planet-card" data-planet="jupiter">
+                                <div class="planet-icon jupiter"></div>
+                                <span>Júpiter</span>
+                            </div>
+                            <div class="planet-card" data-planet="saturn">
+                                <div class="planet-icon saturn"></div>
+                                <span>Saturno</span>
+                            </div>
+                            <div class="planet-card" data-planet="uranus">
+                                <div class="planet-icon uranus"></div>
+                                <span>Urano</span>
+                            </div>
+                            <div class="planet-card" data-planet="neptune">
+                                <div class="planet-icon neptune"></div>
+                                <span>Neptuno</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="physics-comparison" class="physics-section">
+            <div class="section-header">
+                <h2>Comparación de Física Planetaria</h2>
+                <p>Compara cómo interactúan diferentes objetos en diversos mundos del sistema solar</p>
+            </div>
+            
+            <div class="physics-container">
+                <div class="object-selector">
+                    <h3>Seleccionar Objeto</h3>
+                    <div class="object-grid">
+                        <div class="object-card active" data-object="astronaut">
+                            <div class="object-icon astronaut"></div>
+                            <span>Astronauta</span>
+                        </div>
+                        <div class="object-card" data-object="rocket">
+                            <div class="object-icon rocket"></div>
+                            <span>Cohete</span>
+                        </div>
+                        <div class="object-card" data-object="rover">
+                            <div class="object-icon rover"></div>
+                            <span>Rover</span>
+                        </div>
+                        <div class="object-card" data-object="satellite">
+                            <div class="object-icon satellite"></div>
+                            <span>Satélite</span>
+                        </div>
+                        <div class="object-card" data-object="ball">
+                            <div class="object-icon ball"></div>
+                            <span>Pelota</span>
+                        </div>
+                        <div class="object-card" data-object="car">
+                            <div class="object-icon car"></div>
+                            <span>Auto</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="physics-display">
+                    <div id="physics-canvas" class="physics-canvas">
+                        <canvas id="physics-simulation"></canvas>
+                    </div>
+                    
+                    <div class="physics-data">
+                        <div class="data-card">
+                            <h4>Gravedad</h4>
+                            <div class="data-value">
+                                <span id="gravity-value">9.8</span>
+                                <span class="unit">m/s²</span>
+                            </div>
+                            <div class="comparison-bar">
+                                <div class="bar-fill" id="gravity-bar"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="data-card">
+                            <h4>Peso del Objeto</h4>
+                            <div class="data-value">
+                                <span id="weight-value">70</span>
+                                <span class="unit">kg</span>
+                            </div>
+                            <div class="comparison-bar">
+                                <div class="bar-fill" id="weight-bar"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="data-card">
+                            <h4>Temperatura Promedio</h4>
+                            <div class="data-value">
+                                <span id="temp-value">15</span>
+                                <span class="unit">°C</span>
+                            </div>
+                            <div class="comparison-bar">
+                                <div class="bar-fill" id="temp-bar"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="data-card">
+                            <h4>Velocidad de Escape</h4>
+                            <div class="data-value">
+                                <span id="escape-value">11.2</span>
+                                <span class="unit">km/s</span>
+                            </div>
+                            <div class="comparison-bar">
+                                <div class="bar-fill" id="escape-bar"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="planet-info" class="info-section">
+            <div class="section-header">
+                <h2>Exploración del Sistema Solar</h2>
+                <p>Descubre la historia y características de cada planeta y satélite</p>
+            </div>
+            
+            <div class="info-container">
+                <div class="planet-info-sidebar">
+                    <div class="info-tabs">
+                        <button class="tab-btn active" data-tab="overview">Visión General</button>
+                        <button class="tab-btn" data-tab="history">Historia</button>
+                        <button class="tab-btn" data-tab="composition">Composición</button>
+                        <button class="tab-btn" data-tab="missions">Misiones</button>
+                    </div>
+                    
+                    <div class="planet-list">
+                        <div class="planet-item active" data-planet="earth">
+                            <div class="planet-thumb earth"></div>
+                            <div class="planet-details">
+                                <h4>Tierra</h4>
+                                <p>Nuestro hogar en el cosmos</p>
+                            </div>
+                        </div>
+                        <div class="planet-item" data-planet="mars">
+                            <div class="planet-thumb mars"></div>
+                            <div class="planet-details">
+                                <h4>Marte</h4>
+                                <p>El planeta rojo</p>
+                            </div>
+                        </div>
+                        <div class="planet-item" data-planet="jupiter">
+                            <div class="planet-thumb jupiter"></div>
+                            <div class="planet-details">
+                                <h4>Júpiter</h4>
+                                <p>El gigante gaseoso</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="planet-info-content">
+                    <div id="overview-content" class="info-content active">
+                        <h3>Tierra - Nuestro Hogar Planetario</h3>
+                        <div class="info-stats">
+                            <div class="stat">
+                                <span class="stat-label">Diámetro</span>
+                                <span class="stat-value">12,742 km</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Masa</span>
+                                <span class="stat-value">5.97 × 10²⁴ kg</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Gravedad</span>
+                                <span class="stat-value">9.8 m/s²</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Temperatura</span>
+                                <span class="stat-value">-89°C a 58°C</span>
+                            </div>
+                        </div>
+                        
+                        <div class="info-description">
+                            <p>La Tierra es el tercer planeta desde el Sol y el único conocido que alberga vida. Su atmósfera rica en oxígeno, presencia de agua líquida y campo magnético protector la convierten en un oasis único en el vasto cosmos.</p>
+                            
+                            <p>Con una superficie cubierta en un 71% por océanos, la Tierra presenta una diversidad de ecosistemas que van desde las selvas tropicales más exuberantes hasta los desiertos más áridos, pasando por extensas praderas y polos helados.</p>
+                        </div>
+                        
+                        <div class="info-gallery">
+                            <div class="gallery-item">
+                                <img src="https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?w=400" alt="Tierra desde el espacio">
+                                <span>Vista desde el espacio</span>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="https://images.unsplash.com/photo-1581822261290-991b38693d1b?w=400" alt="Superficie terrestre">
+                                <span>Superficie variada</span>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="https://images.unsplash.com/photo-1579154204601-01588b351e60?w=400" alt="Atmósfera terrestre">
+                                <span>Atmósfera protectora</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="object-detail-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-body">
+                <h3>Detalles del Objeto</h3>
+                <div id="modal-content-area"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.9/dat.gui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/stats.js/r17/Stats.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
+    <script src="js/effects.js"></script>
+    <script src="js/solarSystem.js"></script>
+    <script src="js/physicsComparison.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
