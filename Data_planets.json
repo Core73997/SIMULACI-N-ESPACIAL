@@ -1,0 +1,520 @@
+{
+  "planets": {
+    "mercury": {
+      "name": "Mercurio",
+      "englishName": "Mercury",
+      "type": "rocky",
+      "position": 1,
+      "diameter": 4879,
+      "mass": 3.3011e23,
+      "gravity": 3.7,
+      "escapeVelocity": 4.25,
+      "rotationPeriod": 58.646,
+      "orbitalPeriod": 87.969,
+      "meanTemperature": 167,
+      "minTemperature": -173,
+      "maxTemperature": 427,
+      "distanceFromSun": 57.9,
+      "perihelion": 46.0,
+      "aphelion": 69.8,
+      "orbitalVelocity": 47.87,
+      "orbitalInclination": 7.0,
+      "orbitalEccentricity": 0.205,
+      "obliquity": 0.034,
+      "meanRadius": 2439.7,
+      "surfaceArea": 7.48e7,
+      "volume": 6.083e10,
+      "density": 5.427,
+      "atmosphere": {
+        "composition": {
+          "oxygen": 42,
+          "sodium": 29,
+          "hydrogen": 22
+        },
+        "pressure": 1e-15,
+        "scaleHeight": 100
+      },
+      "moons": [],
+      "discoveredBy": "Antiguos",
+      "discoveryDate": "Antigüedad",
+      "description": "Mercurio es el planeta más cercano al Sol y el más pequeño del sistema solar. Su superficie está cubierta de cráteres y experimenta las variaciones de temperatura más extremas.",
+      "funFacts": [
+        "Un día en Mercurio dura 59 días terrestres",
+        "Tiene la órbita más excéntrica de todos los planetas",
+        "La temperatura puede variar 600°C entre el día y la noche",
+        "Tiene un núcleo metálico grande en proporción a su tamaño"
+      ],
+      "exploration": {
+        "missions": ["Mariner 10", "MESSENGER", "BepiColombo"],
+        "firstFlyby": "Mariner 10 (1974)",
+        "firstOrbiter": "MESSENGER (2011)",
+        "discoveries": [
+          "Hielo en los polos",
+          "Campo magnético global",
+          "Contracción planetaria",
+          "Exosfera variable"
+        ]
+      },
+      "color": "#8c7853",
+      "texture": "mercury",
+      "ringSystem": false,
+      "magneticField": true,
+      "hasWater": true
+    },
+    "venus": {
+      "name": "Venus",
+      "englishName": "Venus",
+      "type": "rocky",
+      "position": 2,
+      "diameter": 12104,
+      "mass": 4.8675e24,
+      "gravity": 8.87,
+      "escapeVelocity": 10.36,
+      "rotationPeriod": -243.0187,
+      "orbitalPeriod": 224.701,
+      "meanTemperature": 462,
+      "minTemperature": 462,
+      "maxTemperature": 462,
+      "distanceFromSun": 108.2,
+      "perihelion": 107.5,
+      "aphelion": 108.9,
+      "orbitalVelocity": 35.02,
+      "orbitalInclination": 3.4,
+      "orbitalEccentricity": 0.007,
+      "obliquity": 177.4,
+      "meanRadius": 6051.8,
+      "surfaceArea": 4.60e8,
+      "volume": 9.28e11,
+      "density": 5.243,
+      "atmosphere": {
+        "composition": {
+          "carbonDioxide": 96.5,
+          "nitrogen": 3.5,
+          "sulfurDioxide": 0.015
+        },
+        "pressure": 92,
+        "scaleHeight": 15.9
+      },
+      "moons": [],
+      "discoveredBy": "Antiguos",
+      "discoveryDate": "Antigüedad",
+      "description": "Venus es el planeta más caliente del sistema solar debido a su efecto invernadero extremo. Su densa atmósfera de dióxido de carbono atrapa el calor de manera efectiva.",
+      "funFacts": [
+        "Gira en dirección contraria a la mayoría de los planetas",
+        "Un día es más largo que un año",
+        "La presión atmosférica es 92 veces la de la Tierra",
+        "Tiene lluvias de ácido sulfúrico que nunca llegan al suelo"
+      ],
+      "exploration": {
+        "missions": ["Venera", "Pioneer Venus", "Magellan", "Venus Express", "Akatsuki"],
+        "firstFlyby": "Venera 1 (1961)",
+        "firstLanding": "Venera 7 (1970)",
+        "discoveries": [
+          "Superficie extremadamente caliente",
+          "Atmósfera densa de CO2",
+          "Rotación retrógrada",
+          "Campos de lava extensos"
+        ]
+      },
+      "color": "#ffc649",
+      "texture": "venus",
+      "ringSystem": false,
+      "magneticField": false,
+      "hasWater": false
+    },
+    "earth": {
+      "name": "Tierra",
+      "englishName": "Earth",
+      "type": "rocky",
+      "position": 3,
+      "diameter": 12742,
+      "mass": 5.97237e24,
+      "gravity": 9.8,
+      "escapeVelocity": 11.186,
+      "rotationPeriod": 0.99726968,
+      "orbitalPeriod": 365.256,
+      "meanTemperature": 15,
+      "minTemperature": -89.2,
+      "maxTemperature": 56.7,
+      "distanceFromSun": 149.6,
+      "perihelion": 147.1,
+      "aphelion": 152.1,
+      "orbitalVelocity": 29.78,
+      "orbitalInclination": 0.0,
+      "orbitalEccentricity": 0.0167,
+      "obliquity": 23.44,
+      "meanRadius": 6371.0,
+      "surfaceArea": 5.10e8,
+      "volume": 1.08321e12,
+      "density": 5.513,
+      "atmosphere": {
+        "composition": {
+          "nitrogen": 78.08,
+          "oxygen": 20.95,
+          "argon": 0.93,
+          "carbonDioxide": 0.04
+        },
+        "pressure": 1.01325,
+        "scaleHeight": 8.5
+      },
+      "moons": ["Luna"],
+      "discoveredBy": "N/A",
+      "discoveryDate": "N/A",
+      "description": "Nuestro hogar planetario, el único planeta conocido que alberga vida. Su atmósfera única, presencia de agua líquida y campo magnético protector la convierten en un oasis único en el cosmos.",
+      "funFacts": [
+        "El único planeta conocido con vida",
+        "Tiene una luna grande en comparación con su tamaño",
+        "La única superficie planetaria con agua líquida",
+        "Tiene placas tectónicas activas"
+      ],
+      "exploration": {
+        "missions": ["Landsat", "Terra", "Aqua", "Suomi NPP"],
+        "firstSatellite": "Sputnik 1 (1957)",
+        "firstHuman": "Yuri Gagarin (1961)",
+        "discoveries": [
+          "Sistema de placas tectónicas",
+          "Cambio climático global",
+          "Ciclos hidrológicos",
+          "Dinámica atmosférica"
+        ]
+      },
+      "color": "#6b93d6",
+      "texture": "earth",
+      "ringSystem": false,
+      "magneticField": true,
+      "hasWater": true
+    },
+    "mars": {
+      "name": "Marte",
+      "englishName": "Mars",
+      "type": "rocky",
+      "position": 4,
+      "diameter": 6779,
+      "mass": 6.4171e23,
+      "gravity": 3.71,
+      "escapeVelocity": 5.03,
+      "rotationPeriod": 1.026,
+      "orbitalPeriod": 686.98,
+      "meanTemperature": -65,
+      "minTemperature": -143,
+      "maxTemperature": 35,
+      "distanceFromSun": 227.9,
+      "perihelion": 206.6,
+      "aphelion": 249.2,
+      "orbitalVelocity": 24.13,
+      "orbitalInclination": 1.9,
+      "orbitalEccentricity": 0.094,
+      "obliquity": 25.19,
+      "meanRadius": 3389.5,
+      "surfaceArea": 1.44e8,
+      "volume": 1.6318e11,
+      "density": 3.933,
+      "atmosphere": {
+        "composition": {
+          "carbonDioxide": 95.32,
+          "nitrogen": 2.7,
+          "argon": 1.6,
+          "oxygen": 0.13
+        },
+        "pressure": 0.00636,
+        "scaleHeight": 11.1
+      },
+      "moons": ["Fobos", "Deimos"],
+      "discoveredBy": "Antiguos",
+      "discoveryDate": "Antigüedad",
+      "description": "Marte ha sido objeto de fascinación humana durante siglos. Su color rojizo se debe al óxido de hierro en su superficie, y es el planeta más similar a la Tierra en muchos aspectos.",
+      "funFacts": [
+        "Tiene el volcán más grande del sistema solar",
+        "Tiene la grieta más larga del sistema solar",
+        "Tiene estaciones similares a las de la Tierra",
+        "Tiene los dos satélites más pequeños del sistema solar"
+      ],
+      "exploration": {
+        "missions": ["Viking", "Pathfinder", "Spirit", "Opportunity", "Curiosity", "Perseverance"],
+        "firstFlyby": "Mariner 4 (1965)",
+        "firstLanding": "Viking 1 (1976)",
+        "discoveries": [
+          "Agua congelada en los polos",
+          "Evidencia de agua líquida pasada",
+          "Metano atmosférico variable",
+          "Campos magnéticos locales"
+        ]
+      },
+      "color": "#cd5c5c",
+      "texture": "mars",
+      "ringSystem": false,
+      "magneticField": false,
+      "hasWater": true
+    },
+    "jupiter": {
+      "name": "Júpiter",
+      "englishName": "Jupiter",
+      "type": "gas_giant",
+      "position": 5,
+      "diameter": 139820,
+      "mass": 1.8982e27,
+      "gravity": 24.79,
+      "escapeVelocity": 59.5,
+      "rotationPeriod": 0.41354,
+      "orbitalPeriod": 4332.59,
+      "meanTemperature": -110,
+      "minTemperature": -145,
+      "maxTemperature": -110,
+      "distanceFromSun": 778.5,
+      "perihelion": 740.5,
+      "aphelion": 816.6,
+      "orbitalVelocity": 13.07,
+      "orbitalInclination": 1.3,
+      "orbitalEccentricity": 0.049,
+      "obliquity": 3.13,
+      "meanRadius": 69911,
+      "surfaceArea": 6.1419e10,
+      "volume": 1.43128e15,
+      "density": 1.326,
+      "atmosphere": {
+        "composition": {
+          "hydrogen": 89.8,
+          "helium": 10.2,
+          "methane": 0.3,
+          "ammonia": 0.026
+        },
+        "pressure": 1000,
+        "scaleHeight": 27
+      },
+      "moons": ["Io", "Europa", "Ganimedes", "Calisto"],
+      "discoveredBy": "Antiguos",
+      "discoveryDate": "Antigüedad",
+      "description": "Júpiter es el planeta más grande del sistema solar, con una masa mayor que todos los demás planetas combinados. Su Gran Mancha Roja es una tormenta gigante que ha durado siglos.",
+      "funFacts": [
+        "Podría contener todos los demás planetas dentro de sí",
+        "Tiene más de 80 lunas conocidas",
+        "La Gran Mancha Roja es más grande que la Tierra",
+        "Emite más calor del que recibe del Sol"
+      ],
+      "exploration": {
+        "missions": ["Pioneer", "Voyager", "Galileo", "Juno"],
+        "firstFlyby": "Pioneer 10 (1973)",
+        "firstOrbiter": "Galileo (1995)",
+        "discoveries": [
+          "Lunas galileanas con océanos",
+          "Anillos planetarios",
+          "Tormentas gigantes",
+          "Campo magnético enorme"
+        ]
+      },
+      "color": "#d8ca9d",
+      "texture": "jupiter",
+      "ringSystem": true,
+      "magneticField": true,
+      "hasWater": false
+    },
+    "saturn": {
+      "name": "Saturno",
+      "englishName": "Saturn",
+      "type": "gas_giant",
+      "position": 6,
+      "diameter": 116460,
+      "mass": 5.6834e26,
+      "gravity": 10.44,
+      "escapeVelocity": 35.5,
+      "rotationPeriod": 0.44401,
+      "orbitalPeriod": 10759.22,
+      "meanTemperature": -140,
+      "minTemperature": -178,
+      "maxTemperature": -139,
+      "distanceFromSun": 1432.0,
+      "perihelion": 1352.6,
+      "aphelion": 1511.4,
+      "orbitalVelocity": 9.69,
+      "orbitalInclination": 2.5,
+      "orbitalEccentricity": 0.057,
+      "obliquity": 26.73,
+      "meanRadius": 58232,
+      "surfaceArea": 4.27e10,
+      "volume": 8.27e14,
+      "density": 0.687,
+      "atmosphere": {
+        "composition": {
+          "hydrogen": 96.3,
+          "helium": 3.25,
+          "methane": 0.45,
+          "ammonia": 0.0125
+        },
+        "pressure": 1000,
+        "scaleHeight": 59.5
+      },
+      "moons": ["Titán", "Rea", "Encélado", "Mimas", "Dione", "Tetis"],
+      "discoveredBy": "Antiguos",
+      "discoveryDate": "Antigüedad",
+      "description": "Saturno es famoso por sus espectaculares anillos, compuestos principalmente de partículas de hielo y roca. Es el segundo planeta más grande del sistema solar.",
+      "funFacts": [
+        "Tiene los anillos más espectaculares del sistema solar",
+        "Podría flotar en agua debido a su baja densidad",
+        "Tiene más de 80 lunas conocidas",
+        "La luna Titán tiene atmósfera densa"
+      ],
+      "exploration": {
+        "missions": ["Pioneer", "Voyager", "Cassini-Huygens"],
+        "firstFlyby": "Pioneer 11 (1979)",
+        "firstOrbiter": "Cassini (2004)",
+        "discoveries": [
+          "Anillos complejos y variables",
+          "Océanos en lunas",
+          "Tormentas hexagonales",
+          "Geiseres en Encélado"
+        ]
+      },
+      "color": "#fab27b",
+      "texture": "saturn",
+      "ringSystem": true,
+      "magneticField": true,
+      "hasWater": false
+    },
+    "uranus": {
+      "name": "Urano",
+      "englishName": "Uranus",
+      "type": "ice_giant",
+      "position": 7,
+      "diameter": 50724,
+      "mass": 8.6810e25,
+      "gravity": 8.69,
+      "escapeVelocity": 21.3,
+      "rotationPeriod": -0.71833,
+      "orbitalPeriod": 30688.5,
+      "meanTemperature": -195,
+      "minTemperature": -224,
+      "maxTemperature": -197,
+      "distanceFromSun": 2867.0,
+      "perihelion": 2742.0,
+      "aphelion": 2992.0,
+      "orbitalVelocity": 6.80,
+      "orbitalInclination": 0.8,
+      "orbitalEccentricity": 0.047,
+      "obliquity": 97.77,
+      "meanRadius": 25362,
+      "surfaceArea": 8.1156e9,
+      "volume": 6.833e13,
+      "density": 1.27,
+      "atmosphere": {
+        "composition": {
+          "hydrogen": 83,
+          "helium": 15,
+          "methane": 2.3,
+          "water": 0.01
+        },
+        "pressure": 1000,
+        "scaleHeight": 27.7
+      },
+      "moons": ["Miranda", "Ariel", "Umbriel", "Titania", "Oberón"],
+      "discoveredBy": "William Herschel",
+      "discoveryDate": "1781-03-13",
+      "description": "Urano es único porque gira de lado, con un eje de rotación inclinado 98 grados. Esto causa estaciones extremas que duran 21 años terrestres cada una.",
+      "funFacts": [
+        "Gira de lado como una bola de bolos",
+        "Tiene anillos oscuros y delgados",
+        "La temperatura es más fría que Neptuno",
+        "Tiene 27 lunas conocidas"
+      ],
+      "exploration": {
+        "missions": ["Voyager 2"],
+        "firstFlyby": "Voyager 2 (1986)",
+        "firstOrbiter": "Ninguno",
+        "discoveries": [
+          "Campo magnético inclinado",
+          "Anillos tenues",
+          "Lunas geológicamente activas",
+          "Atmósfera dinámica"
+        ]
+      },
+      "color": "#4fd0e7",
+      "texture": "uranus",
+      "ringSystem": true,
+      "magneticField": true,
+      "hasWater": false
+    },
+    "neptune": {
+      "name": "Neptuno",
+      "englishName": "Neptune",
+      "type": "ice_giant",
+      "position": 8,
+      "diameter": 49244,
+      "mass": 1.02413e26,
+      "gravity": 11.15,
+      "escapeVelocity": 23.5,
+      "rotationPeriod": 0.67125,
+      "orbitalPeriod": 60182,
+      "meanTemperature": -200,
+      "minTemperature": -218,
+      "maxTemperature": -200,
+      "distanceFromSun": 4515.0,
+      "perihelion": 4444.5,
+      "aphelion": 4545.7,
+      "orbitalVelocity": 5.43,
+      "orbitalInclination": 1.8,
+      "orbitalEccentricity": 0.011,
+      "obliquity": 28.32,
+      "meanRadius": 24622,
+      "surfaceArea": 7.6183e9,
+      "volume": 6.254e13,
+      "density": 1.638,
+      "atmosphere": {
+        "composition": {
+          "hydrogen": 80,
+          "helium": 19,
+          "methane": 1.5,
+          "water": 0.01
+        },
+        "pressure": 1000,
+        "scaleHeight": 19.1
+      },
+      "moons": ["Tritón", "Nereida", "Proteo", "Nayade", "Talasa"],
+      "discoveredBy": "Johann Galle",
+      "discoveryDate": "1846-09-23",
+      "description": "Neptuno tiene los vientos más rápidos del sistema solar, con velocidades de hasta 2,100 km/h. Es el planeta más lejano del Sol y el más denso de los gigantes gaseosos.",
+      "funFacts": [
+        "Fue el primer planeta descubierto matemáticamente",
+        "Tiene los vientos más rápidos del sistema solar",
+        "Su luna Tritón orbita en dirección contraria",
+        "Tiene 14 lunas conocidas"
+      ],
+      "exploration": {
+        "missions": ["Voyager 2"],
+        "firstFlyby": "Voyager 2 (1989)",
+        "firstOrbiter": "Ninguno",
+        "discoveries": [
+          "Gran Mancha Oscura",
+          "Vientos supersónicos",
+          "Lunas activas",
+          "Anillos incompletos"
+        ]
+      },
+      "color": "#4169e1",
+      "texture": "neptune",
+      "ringSystem": true,
+      "magneticField": true,
+      "hasWater": false
+    }
+  },
+  "sun": {
+    "name": "Sol",
+    "englishName": "Sun",
+    "type": "star",
+    "diameter": 1391000,
+    "mass": 1.9885e30,
+    "gravity": 274.0,
+    "escapeVelocity": 617.7,
+    "rotationPeriod": 27.0,
+    "meanTemperature": 5778,
+    "coreTemperature": 15000000,
+    "luminosity": 3.828e26,
+    "age": 4.603e9,
+    "composition": {
+      "hydrogen": 73.46,
+      "helium": 24.85,
+      "metals": 1.69
+    },
+    "description": "El Sol es la estrella en el centro del sistema solar. Es una esfera casi perfecta de plasma caliente, con un diámetro de aproximadamente 1.39 millones de kilómetros.",
+    "color": "#ffd700",
+    "texture": "sun"
+  }
+}
