@@ -54,7 +54,7 @@ It allows users to explore planets, compare physical properties between worlds, 
 │   └── physicsComparison.js# Physics comparison
 ├── README.md               # Documentation
 └── resources/              # Multimedia resources
-
+```
 ## 4. Usage
 
 - Simulate human behavior under different gravity levels  
