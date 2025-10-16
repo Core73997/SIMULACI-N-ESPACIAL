@@ -45,6 +45,7 @@ It allows users to explore planets, compare physical properties between worlds, 
 ---
 
 ## 3. Project Structure
+```text
 ├── index.html              # Main page
 ├── styles.css              # Styles and layout
 ├── js/
