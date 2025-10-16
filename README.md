@@ -45,14 +45,14 @@ It allows users to explore planets, compare physical properties between worlds, 
 ---
 
 ## 3. Project Structure
-├── index.html # Main page
-├── styles.css # Styles and layout
+├── index.html              # Main page
+├── styles.css              # Styles and layout
 ├── js/
-│ ├── main.js # Main controller
-│ ├── solarSystem.js # Solar system simulation
-│ └── physicsComparison.js # Physics comparison
-├── README.md # Documentation
-└── resources/ # Multimedia resources
+│   ├── main.js             # Main controller
+│   ├── solarSystem.js      # Solar system simulation
+│   └── physicsComparison.js# Physics comparison
+├── README.md               # Documentation
+└── resources/              # Multimedia resources
 
 ## 4. Usage
 
