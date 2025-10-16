@@ -1,83 +1,95 @@
-Sistema Solar 3D es una aplicación web interactiva que simula el sistema solar en 3D, inspirada en el sistema de visualización de la NASA. Permite explorar planetas, comparar física entre diferentes mundos y aprender sobre astronomía.
+# 3D Solar System
 
-1: Características
+**3D Solar System** is an interactive web application that simulates the Solar System in 3D, inspired by NASA’s visualization systems.  
+It allows users to explore planets, compare physical properties between worlds, and learn about astronomy through realistic simulations.
 
-1.1 Simulación 3D del Sistema Solar
-- Modelo 3D completo de todos los planetas y satélites principales
-- Órbitas realistas y rotaciones planetarias
-- Control de tiempo y velocidad de simulación
-- Vista interactiva con navegación por planetas
+---
 
-1.2 Comparación de Física Planetaria
-- Compara gravedad, temperatura y velocidad de escape entre planetas
-- Simulación de caída de objetos en diferentes mundos
-- Objetos interactivos: astronautas, cohetes, rovers, satélites
-- Visualización en tiempo real del comportamiento físico
+## 1. Features
 
-1.3 Información Educativa
-- Historia y características de cada planeta
-- Datos científicos actualizados
-- Misiones espaciales reales
-- Galería de imágenes del sistema solar
+### 1.1 3D Solar System Simulation
+- Complete 3D model of all planets and major moons  
+- Realistic planetary orbits and rotations  
+- Adjustable time flow and simulation speed  
+- Interactive camera with planet navigation  
 
-1.4 Controles Interactivos
-- Navegación con mouse y teclado
-- Controles de velocidad de tiempo
-- Selección de planetas y objetos
-- Modo de pantalla completa
+### 1.2 Planetary Physics Comparison
+- Compare gravity, temperature, and escape velocity between planets  
+- Simulate object falls in different gravitational environments  
+- Interactive objects: astronauts, rockets, rovers, and satellites  
+- Real-time visualization of physical behavior  
 
-2: Tecnologías Utilizadas
+### 1.3 Educational Information
+- History and main characteristics of each planet  
+- Scientifically accurate and updated data  
+- Real space missions overview  
+- Image gallery of the Solar System  
 
-- Three.js: Renderizado 3D y animaciones
-- HTML5 Canvas: Gráficos y simulaciones
-- CSS3: Efectos visuales y diseño responsivo
-- JavaScript ES6+: Lógica de la aplicación
-- WebGL: Aceleración por hardware
+### 1.4 Interactive Controls
+- Mouse and keyboard navigation  
+- Time-speed control  
+- Planet and object selection  
+- Fullscreen mode  
 
-3: Estructura del Proyecto
+---
+## 2. Technologies Used
 
-```
-/
-├── index.html              # Página principal
-├── styles.css              # Estilos y diseño
+| Technology | Purpose |
+|-------------|----------|
+| **Three.js** | 3D rendering and animation |
+| **HTML5 Canvas** | Graphics and simulation |
+| **CSS3** | Visual effects and responsive design |
+| **JavaScript ES6+** | Application logic |
+| **WebGL** | Hardware acceleration |
+
+---
+
+## 3. Project Structure
+├── index.html # Main page
+├── styles.css # Styles and layout
 ├── js/
-│   ├── main.js             # Controlador principal
-│   ├── solarSystem.js      # Simulación del sistema solar
-│   └── physicsComparison.js # Comparación de física
-├── README.md               # Documentación
-└── resources/              # Recursos multimedia
-```
+│ ├── main.js # Main controller
+│ ├── solarSystem.js # Solar system simulation
+│ └── physicsComparison.js # Physics comparison
+├── README.md # Documentation
+└── resources/ # Multimedia resources
 
-4: Uso
-- Simula el comportamiento de un ser humano en diferentes gravedades
-- Muestra altura de salto y velocidad de caída
-- Calcula requisitos de velocidad de escape
-- Muestra diferencias en requisitos de combustible
-- Simula tracción y movilidad en diferentes superficies
-- Muestra limitaciones de operación
-- Calcula velocidades orbitales requeridas
-- Muestra diferencias en órbitas estables
+## 4. Usage
 
-5: Objetivos
+- Simulate human behavior under different gravity levels  
+- Display jump height and fall velocity  
+- Calculate escape velocity requirements  
+- Show differences in fuel consumption  
+- Simulate traction and mobility on various surfaces  
+- Visualize operational limitations  
+- Calculate orbital velocity requirements  
+- Display differences in stable orbit parameters  
 
-Esta aplicación está diseñada para:
-- Estudiantes: Aprender astronomía de manera interactiva
-- Educadores: Herramienta de enseñanza visual
-- Entusiastas: Explorar el sistema solar
-- Científicos: Visualizar datos planetarios
+---
 
-Los datos utilizados son basados en mediciones reales de:
-- NASA (National Aeronautics and Space Administration)
-- ESA (European Space Agency)
-- Datos públicos de misiones espaciales
+## 5. Objectives
 
-6: Futuras Mejoras
+This application is designed for:
 
-- [ ] Añadir más satélites naturales
-- [ ] Incluir asteroides y cometas
-- [ ] Simulación de clima planetario
-- [ ] Modo multijugador educativo
-- [ ] Realidad virtual (VR)
-- [ ] Modo offline
+- **Students:** Learn astronomy in an interactive way  
+- **Educators:** Use as a visual and engaging teaching tool  
+- **Enthusiasts:** Explore the Solar System freely  
+- **Scientists:** Visualize and compare planetary data  
 
+### Data Sources
+
+- **NASA** – National Aeronautics and Space Administration  
+- **ESA** – European Space Agency  
+- Public datasets from official space missions  
+
+---
+
+## 6. Future Improvements
+
+- [ ] Add more natural satellites  
+- [ ] Include asteroids and comets  
+- [ ] Planetary weather simulation  
+- [ ] Educational multiplayer mode  
+- [ ] Virtual Reality (VR) support  
+- [ ] Offline mode 
 
