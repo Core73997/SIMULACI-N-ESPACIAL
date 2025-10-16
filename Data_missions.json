@@ -1,0 +1,498 @@
+{
+  "missions": {
+    "mercury": [
+      {
+        "name": "Mariner 10",
+        "agency": "NASA",
+        "launchDate": "1973-11-03",
+        "arrivalDate": "1974-03-29",
+        "type": "flyby",
+        "status": "completed",
+        "duration": "1974-1975",
+        "achievements": [
+          "Primeras imágenes cercanas de Mercurio",
+          "Mapeó el 45% de la superficie",
+          "Descubrió campo magnético",
+          "Medió temperatura y atmósfera"
+        ],
+        "instruments": [
+          "Cámaras de televisión",
+          "Espectrómetro UV",
+          "Magnetómetro",
+          "Detector de partículas"
+        ]
+      },
+      {
+        "name": "MESSENGER",
+        "agency": "NASA",
+        "launchDate": "2004-08-03",
+        "arrivalDate": "2011-03-18",
+        "type": "orbiter",
+        "status": "completed",
+        "duration": "2011-2015",
+        "achievements": [
+          "Primer satélite en orbitar Mercurio",
+          "Mapeó el 100% de la superficie",
+          "Confirmó hielo en los polos",
+          "Estudió el campo magnético"
+        ],
+        "instruments": [
+          "Cámaras de imagen",
+          "Espectrómetro de rayos X",
+          "Magnetómetro",
+          "Altímetro láser"
+        ]
+      },
+      {
+        "name": "BepiColombo",
+        "agency": "ESA/JAXA",
+        "launchDate": "2018-10-20",
+        "arrivalDate": "2025-12-05",
+        "type": "orbiter",
+        "status": "en route",
+        "duration": "2025-2028",
+        "achievements": [
+          "Doble satélite en órbita",
+          "Estudio del interior planetario",
+          "Análisis de la exosfera",
+          "Mapeo detallado del campo magnético"
+        ],
+        "instruments": [
+          "Cámaras de alta resolución",
+          "Magnetómetro de alta precisión",
+          "Espectrómetro de masas",
+          "Detector de partículas"
+        ]
+      }
+    ],
+    "venus": [
+      {
+        "name": "Venera 1",
+        "agency": "URSS",
+        "launchDate": "1961-02-12",
+        "arrivalDate": "1961-05-19",
+        "type": "flyby",
+        "status": "failed",
+        "duration": "7 días",
+        "achievements": [
+          "Primera misión a Venus",
+          "Datos sobre el ambiente interestelar"
+        ],
+        "instruments": [
+          "Magnetómetro",
+          "Detectores de partículas"
+        ]
+      },
+      {
+        "name": "Venera 7",
+        "agency": "URSS",
+        "launchDate": "1970-08-17",
+        "arrivalDate": "1970-12-15",
+        "type": "lander",
+        "status": "completed",
+        "duration": "23 minutos en superficie",
+        "achievements": [
+          "Primer aterrizaje exitoso en Venus",
+          "Medió temperatura y presión",
+          "Transmitió datos desde la superficie"
+        ],
+        "instruments": [
+          "Termómetro",
+          "Barómetro",
+          "Transmisor de datos"
+        ]
+      },
+      {
+        "name": "Magellan",
+        "agency": "NASA",
+        "launchDate": "1989-05-04",
+        "arrivalDate": "1990-08-10",
+        "type": "orbiter",
+        "status": "completed",
+        "duration": "1990-1994",
+        "achievements": [
+          "Mapeó el 98% de la superficie",
+          "Imágenes de radar de alta resolución",
+          "Medió el campo gravitacional",
+          "Estudió la atmósfera"
+        ],
+        "instruments": [
+          "Radar de imágenes sintéticas",
+          "Altímetro de radar",
+          "Radiómetro de microondas"
+        ]
+      },
+      {
+        "name": "Venus Express",
+        "agency": "ESA",
+        "launchDate": "2005-11-09",
+        "arrivalDate": "2006-04-11",
+        "type": "orbiter",
+        "status": "completed",
+        "duration": "2006-2014",
+        "achievements": [
+          "Estudio detallado de la atmósfera",
+          "Detección de vientos supersónicos",
+          "Análisis de la química atmosférica",
+          "Observación del clima planetario"
+        ],
+        "instruments": [
+          "Espectrómetro IR",
+          "Espectrómetro UV",
+          "Cámara de alta resolución",
+          "Magnetómetro"
+        ]
+      }
+    ],
+    "earth": [
+      {
+        "name": "Sputnik 1",
+        "agency": "URSS",
+        "launchDate": "1957-10-04",
+        "arrivalDate": "1957-10-04",
+        "type": "orbiter",
+        "status": "completed",
+        "duration": "21 días",
+        "achievements": [
+          "Primer satélite artificial",
+          "Inició la era espacial",
+          "Transmitió señales de radio",
+          "Demonst órbita terrestre"
+        ],
+        "instruments": [
+          "Transmisor de radio",
+          "Baterías",
+          "Sensores térmicos"
+        ]
+      },
+      {
+        "name": "Apollo 11",
+        "agency": "NASA",
+        "launchDate": "1969-07-16",
+        "arrivalDate": "1969-07-20",
+        "type": "crewed landing",
+        "status": "completed",
+        "duration": "8 días",
+        "achievements": [
+          "Primeros humanos en la Luna",
+          "Neil Armstrong y Buzz Aldrin caminaron en la Luna",
+          "Recolección de muestras lunares",
+          "Demostración de vuelo espacial tripulado"
+        ],
+        "instruments": [
+          "Cámaras",
+          "Instrumentos científicos",
+          "Sistemas de vida",
+          "Módulo lunar"
+        ]
+      },
+      {
+        "name": "Hubble Space Telescope",
+        "agency": "NASA/ESA",
+        "launchDate": "1990-04-24",
+        "arrivalDate": "1990-04-25",
+        "type": "space telescope",
+        "status": "active",
+        "duration": "1990-presente",
+        "achievements": [
+          "Imágenes más profundas del universo",
+          "Medición precisa de la expansión del universo",
+          "Descubrimiento de galaxias distantes",
+          "Observación de exoplanetas"
+        ],
+        "instruments": [
+          "Cámaras ópticas",
+          "Espectrógrafos",
+          "Instrumentos IR",
+          "Cámaras de alta resolución"
+        ]
+      },
+      {
+        "name": "International Space Station",
+        "agency": "NASA/Roscosmos/ESA/JAXA/CSA",
+        "launchDate": "1998-11-20",
+        "arrivalDate": "2000-11-02",
+        "type": "space station",
+        "status": "active",
+        "duration": "2000-presente",
+        "achievements": [
+          "Laboratorio espacial permanente",
+          "Cooperación internacional en órbita",
+          "Investigación en microgravedad",
+          "Tecnologías para misiones profundas"
+        ],
+        "instruments": [
+          "Laboratorios científicos",
+          "Observatorios",
+          "Sistemas de vida",
+          "Experimentos tecnológicos"
+        ]
+      }
+    ],
+    "mars": [
+      {
+        "name": "Mariner 4",
+        "agency": "NASA",
+        "launchDate": "1964-11-28",
+        "arrivalDate": "1965-07-14",
+        "type": "flyby",
+        "status": "completed",
+        "duration": "1965",
+        "achievements": [
+          "Primeras imágenes cercanas de Marte",
+          "Reveló una superficie craterizada",
+          "Medió la atmósfera delgada",
+          "Estableció límites para la vida"
+        ],
+        "instruments": [
+          "Cámara de televisión",
+          "Magnetómetro",
+          "Detector de partículas"
+        ]
+      },
+      {
+        "name": "Viking 1",
+        "agency": "NASA",
+        "launchDate": "1975-08-20",
+        "arrivalDate": "1976-07-20",
+        "type": "orbiter/lander",
+        "status": "completed",
+        "duration": "1976-1982",
+        "achievements": [
+          "Primer aterrizaje exitoso en Marte",
+          "Imágenes de la superficie en color",
+          "Experimentos de búsqueda de vida",
+          "Estudio detallado del clima"
+        ],
+        "instruments": [
+          "Cámaras",
+          "Espectrómetro",
+          "Sismómetro",
+          "Laboratorio biológico"
+        ]
+      },
+      {
+        "name": "Curiosity",
+        "agency": "NASA",
+        "launchDate": "2011-11-26",
+        "arrivalDate": "2012-08-06",
+        "type": "rover",
+        "status": "active",
+        "duration": "2012-presente",
+        "achievements": [
+          "Confirmó ambiente habitable pasado",
+          "Detectó compuestos orgánicos",
+          "Medió radiación para futuros astronautas",
+          "Estudió la geología marciana"
+        ],
+        "instruments": [
+          "Laboratorio SAM",
+          "ChemCam",
+          "Cámaras Mastcam",
+          "Radiómetro REMS"
+        ]
+      },
+      {
+        "name": "Perseverance",
+        "agency": "NASA",
+        "launchDate": "2020-07-30",
+        "arrivalDate": "2021-02-18",
+        "type": "rover",
+        "status": "active",
+        "duration": "2021-presente",
+        "achievements": [
+          "Búsqueda de signos de vida microbiana",
+          "Recolección de muestras para retorno",
+          "Primer vuelo de helicóptero en otro planeta",
+          "Conversión de CO2 en oxígeno"
+        ],
+        "instruments": [
+          "SHERLOC",
+          "PIXL",
+          "SuperCam",
+          "MOXIE",
+          "Helicóptero Ingenuity"
+        ]
+      }
+    ],
+    "jupiter": [
+      {
+        "name": "Pioneer 10",
+        "agency": "NASA",
+        "launchDate": "1972-03-03",
+        "arrivalDate": "1973-12-03",
+        "type": "flyby",
+        "status": "completed",
+        "duration": "1973",
+        "achievements": [
+          "Primer flyby de Júpiter",
+          "Imágenes de las lunas galileanas",
+          "Medió el campo magnético",
+          "Estudió la radiación"
+        ],
+        "instruments": [
+          "Cámara de imagen",
+          "Magnetómetro",
+          "Detectores de partículas"
+        ]
+      },
+      {
+        "name": "Galileo",
+        "agency": "NASA",
+        "launchDate": "1989-10-18",
+        "arrivalDate": "1995-12-07",
+        "type": "orbiter/atmospheric probe",
+        "status": "completed",
+        "duration": "1995-2003",
+        "achievements": [
+          "Primer satélite en orbitar Júpiter",
+          "Estudio detallado de las lunas galileanas",
+          "Sonda atmosférica en Júpiter",
+          "Descubrimiento de subsuelo oceánico"
+        ],
+        "instruments": [
+          "Cámara de imagen",
+          "Espectrómetro NIMS",
+          "Magnetómetro",
+          "Sonda atmosférica"
+        ]
+      },
+      {
+        "name": "Juno",
+        "agency": "NASA",
+        "launchDate": "2011-08-05",
+        "arrivalDate": "2016-07-04",
+        "type": "orbiter",
+        "status": "active",
+        "duration": "2016-presente",
+        "achievements": [
+          "Estudio del interior de Júpiter",
+          "Imágenes de los polos",
+          "Medición del campo gravitacional",
+          "Análisis de la atmósfera profunda"
+        ],
+        "instruments": [
+          "Cámara JunoCam",
+          "Espectrómetro JIRAM",
+          "Magnetómetro",
+          "Detector de ondas de radio"
+        ]
+      }
+    ],
+    "saturn": [
+      {
+        "name": "Pioneer 11",
+        "agency": "NASA",
+        "launchDate": "1973-04-06",
+        "arrivalDate": "1979-09-01",
+        "type": "flyby",
+        "status": "completed",
+        "duration": "1979",
+        "achievements": [
+          "Primer flyby de Saturno",
+          "Descubrimiento de nuevos anillos",
+          "Imágenes de Titán",
+          "Medición del campo magnético"
+        ],
+        "instruments": [
+          "Cámara de imagen",
+          "Magnetómetro",
+          "Detectores de partículas"
+        ]
+      },
+      {
+        "name": "Cassini-Huygens",
+        "agency": "NASA/ESA",
+        "launchDate": "1997-10-15",
+        "arrivalDate": "2004-07-01",
+        "type": "orbiter/lander",
+        "status": "completed",
+        "duration": "2004-2017",
+        "achievements": [
+          "Estudio exhaustivo de Saturno y sus lunas",
+          "Sonda Huygens aterrizó en Titán",
+          "Descubrimiento de geiseres en Encélado",
+          "Imágenes espectaculares de los anillos"
+        ],
+        "instruments": [
+          "Cámara ISS",
+          "Espectrómetro VIMS",
+          "RADAR",
+          "Sonda Huygens"
+        ]
+      }
+    ],
+    "uranus": [
+      {
+        "name": "Voyager 2",
+        "agency": "NASA",
+        "launchDate": "1977-08-20",
+        "arrivalDate": "1986-01-24",
+        "type": "flyby",
+        "status": "completed",
+        "duration": "1986",
+        "achievements": [
+          "Única nave en visitar Urano",
+          "Descubrimiento de nuevas lunas",
+          "Imágenes de la atmósfera",
+          "Medición del campo magnético inclinado"
+        ],
+        "instruments": [
+          "Cámara de imagen",
+          "Magnetómetro",
+          "Espectrómetro IRIS",
+          "Detectores de partículas"
+        ]
+      }
+    ],
+    "neptune": [
+      {
+        "name": "Voyager 2",
+        "agency": "NASA",
+        "launchDate": "1977-08-20",
+        "arrivalDate": "1989-08-25",
+        "type": "flyby",
+        "status": "completed",
+        "duration": "1989",
+        "achievements": [
+          "Única nave en visitar Neptuno",
+          "Descubrimiento de la Gran Mancha Oscura",
+          "Imágenes de Tritón",
+          "Medición de vientos supersónicos"
+        ],
+        "instruments": [
+          "Cámara de imagen",
+          "Magnetómetro",
+          "Espectrómetro IRIS",
+          "Detectores de partículas"
+        ]
+      }
+    ]
+  },
+  "upcoming": [
+    {
+      "name": "Europa Clipper",
+      "target": "jupiter",
+      "agency": "NASA",
+      "launchDate": "2024-10-10",
+      "type": "orbiter",
+      "objective": "Estudiar la habitabilidad de Europa"
+    },
+    {
+      "name": "Mars Sample Return",
+      "target": "mars",
+      "agency": "NASA/ESA",
+      "launchDate": "2028",
+      "type": "sample return",
+      "objective": "Retornar muestras de Marte a la Tierra"
+    },
+    {
+      "name": "Dragonfly",
+      "target": "saturn",
+      "agency": "NASA",
+      "launchDate": "2027",
+      "type": "drone",
+      "objective": "Explorar Titán con un helicóptero"
+    }
+  ]
+}
